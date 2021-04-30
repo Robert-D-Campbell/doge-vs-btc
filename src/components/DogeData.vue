@@ -1,12 +1,12 @@
 <template>
-  <div class="dataWrapper"><p>placehodler for tha' BTC</p></div>
+  <div class="dataWrapper"><p>placehodler for tha' DOGE</p></div>
 </template>
 
 <script>
-import BtcService from '@/services/BtcService.js';
+import DogeService from '@/services/DogeService.js';
 
 export default {
-  name: 'BitCoinData',
+  name: 'DogeData',
   props: {
     // eslint-disable-next-line vue/require-default-prop
     apiUrl: {
@@ -21,7 +21,7 @@ export default {
     };
   },
   created() {
-    BtcService.getBtcData()
+    DogeService.getDogeData()
       .then((res) => console.log(res))
       .catch((err) => (this.err = err.err));
   },

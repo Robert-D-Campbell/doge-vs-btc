@@ -1,16 +1,16 @@
 <template>
   <div class="Data">
-    <p>testing home</p>
+    <p>testing Btc</p>
     <BitCoinData />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BitCoinData from "@/components/BitCoinData.vue";
+import BitCoinData from '@/components/BitCoinData.vue';
 
 export default {
-  name: "Data",
+  name: 'Data',
   components: {
     BitCoinData,
   },

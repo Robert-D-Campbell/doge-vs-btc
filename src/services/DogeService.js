@@ -5,9 +5,9 @@ const apiClient = axios.create({
   withCredentials: false,
 });
 export default {
-  getBtcData() {
+  getDogeData() {
     return apiClient.get(
-      `/currencies/ticker?key=${process.env.VUE_APP_CRYPTO_API_KEY}&ids=BTC`
+      `/currencies/ticker?key=${process.env.VUE_APP_CRYPTO_API_KEY}&ids=DOGE`
     );
   },
 };

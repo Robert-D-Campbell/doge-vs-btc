@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Crypto Data</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">BTC</router-link> |
+    <router-link to="/dogeData">DOGE</router-link>
   </div>
   <router-view />
 </template>
